@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap');
+*{
+    font-family: 'Space Mono', monospace;
+        margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/baloon.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+.container{
+    text-align: center;
+    padding-top: 4rem;
+    background-image: url(/cake.jpg);
+    background-size: cover;
+    width: 50vw;
+    margin: auto;
+    height: 70vh;
+    margin-top: 5rem;
+}
+.heading{
+    margin: 2rem 1rem;
+    color: red;
+
+}
+label{
+    color: blue;
+}
+#label,#bday-input{
+    margin-bottom: 1rem;
+}
+#bday-input{
+    padding: 10px 20px;
+    outline: none;
+    margin: 1rem 1rem;
+
+}
+#show-btn{
+    padding: 10px 20px;;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-top: 0.5rem;
+    background-color: #00BF8F;
+    color: white;
+}
+#show-btn:hover{
+    background-color: #35e9bc;
+    color: black;
+}
+.mb{
+    margin-bottom: 1rem;
+}
+.mt{
+    margin-top: 2.1rem;
+}
+.inline{
+    display: flex;
+    justify-content: center;    
+}
+.non-bullet{
+    list-style: none;
+}
+footer{
+    background-color: #00BF8F;
+    padding-top: 0.12px;
+    border-top-left-radius: 20px;
+    margin-top: 11.8rem;
+}
+#result{
+    padding-top: 1.4rem;
+}
+
+
+
