@@ -14,8 +14,6 @@ body{
 .container{
     text-align: center;
     padding-top: 4rem;
-    background-image: url(/cake.jpg);
-    background-size: cover;
     width: 50vw;
     margin: auto;
     height: 70vh;
@@ -23,12 +21,9 @@ body{
 }
 .heading{
     margin: 2rem 1rem;
-    color: red;
 
 }
-label{
-    color: blue;
-}
+
 #label,#bday-input{
     margin-bottom: 1rem;
 }
@@ -72,6 +67,8 @@ footer{
 }
 #result{
     padding-top: 1.4rem;
+    font-size: 20px;
+   
 }
 
 
